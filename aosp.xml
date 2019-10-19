@@ -22,7 +22,6 @@
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="system/update_engine" name="AICP/system_update_engine" groups="pdk" remote="aicp" />
 
   <!-- LineageOS AOSP Repos -->
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
