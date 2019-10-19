@@ -12,12 +12,6 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-17.0"
            sync-j="8" />
-
-  <remote  name="omni"
-           fetch="git://github.com/"
-           review="gerrit.omnirom.org"
-           revision="refs/heads/android-10"
-           sync-j="8" />
  
    <remote  name="github"
            fetch="git://github.com/"
@@ -27,11 +21,11 @@
   <!-- Remove Packages -->
   <include name="remove.xml" />
 
-  <!-- Include AICP AOSP repos -->
-  <include name="aicp-aosp.xml" />
+  <!-- Include AOSP repos -->
+  <include name="aosp.xml" />
 
-  <!-- Include AICP CAF repos -->
-  <include name="aicp-caf.xml" />
+  <!-- Include AOSP CAF repos -->
+  <include name="aosp-caf.xml" />
 
   <!-- AICP additions -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
@@ -54,6 +48,3 @@
   <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="lineage" />
 
-  <!-- Omni additions -->
-  <project path="packages/apps/omniRecord" name="omnirom/android_packages_apps_omniRecord" remote="omni" />
-</manifest>
