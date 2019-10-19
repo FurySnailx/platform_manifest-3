@@ -769,6 +769,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- AICP -->
-  <include name="aicp-default.xml" />
+  <include name="aosp-default.xml" />
 
 </manifest>
