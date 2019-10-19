@@ -1,4 +1,4 @@
-[Android Ice Cold Project](http://aicp-rom.com)
+[Android Ice Cold Project]
 ====================================
 
 
@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b q10.0
+    $ repo init -u https://github.com/FurySnailx/platform_manifest.git -b q10.0
 
 
 sync repo :
